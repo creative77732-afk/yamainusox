@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ヤマイヌちゃんとえっちしてぇ……</title>
+
+  <!-- ▼ Twitterカード用タグ ▼ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ヤマイヌちゃんとえっちしてぇ……">
+  <meta name="twitter:description" content="#yamainusox">
+  <meta name="twitter:image" content="https://github.com/creative77732-afk/bigyamainu/blob/main/G2WHxxsa4AE9gK_.jpg?raw=true">
+  <!-- ▲ Twitterカード用タグ ▲ -->
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f8f8f8;
+      padding: 30px;
+    }
+    img {
+      max-width: 90%;
+      border-radius: 16px;
+      margin: 20px 0;
+    }
+    button {
+      background-color: #1da1f2;
+      color: white;
+      font-size: 18px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #0d8de1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ヤマイヌちゃんとえっちしてぇ……</h1>
+
+  <img src="https://github.com/creative77732-afk/bigyamainu/blob/main/G2WHxxsa4AE9gK_.jpg?raw=true" alt="ヤマイヌちゃん">
+
+  <button id="tweetBtn">#yamainusox をポスト</button>
+
+  <script>
+    document.getElementById("tweetBtn").onclick = function() {
+      const text = encodeURIComponent("ヤマイヌちゃんとえっちしてぇ……\n\n#yamainusox");
+      const url = encodeURIComponent(window.location.href);
+      window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`, "_blank");
+    };
+  </script>
+
+</body>
+</html>
